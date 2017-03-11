@@ -15,9 +15,8 @@ namespace ROLauncher
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            Application.ApplicationExit += (s, e) => Properties.Settings.Default.Save();
             Application.Run(new MainForm());
+            Properties.Settings.Default.Save();
         }
     }
 }
