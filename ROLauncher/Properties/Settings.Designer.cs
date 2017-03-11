@@ -71,27 +71,21 @@ namespace ROLauncher.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
         public int AutoLaunchDelayInSeconds {
             get {
                 return ((int)(this["AutoLaunchDelayInSeconds"]));
             }
-            set {
-                this["AutoLaunchDelayInSeconds"] = value;
-            }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool CheckForROUpdates {
             get {
                 return ((bool)(this["CheckForROUpdates"]));
-            }
-            set {
-                this["CheckForROUpdates"] = value;
             }
         }
     }
