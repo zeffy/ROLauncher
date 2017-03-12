@@ -10,15 +10,7 @@ Launcher for Revelation Online NA/EU. This lets you start the game without needi
 
 # Disclaimer
 
-I have not been banned while developing this tool or using it, however please note that in the My.com Games [Terms of Service](https://legal.my.com/us/games/eula/) it states the following:
-
-```
-3.4 You are not permitted to:
-
-  - modify, adapt, decompile, disassemble, change the Game Services or any of its components;
-...
-  - attempt to circumvent any security measures adopted in the Game Services, including blocking access by IP-address;
-```
+I have not personally had any actions taken against my account while developing and using this tool, however I take absolutely no responsibility if you get banned while using it.
 
 ### Other findings
 
