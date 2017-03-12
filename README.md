@@ -8,6 +8,18 @@ Launcher for Revelation Online NA/EU. This lets you start the game without needi
 * Saves your credentials securely (your password is never saved anywhere after you log in for the first time)
 * Notifies you if there is a new game update available, and gives you the option to start My.com Game Center to initiate it (this can be disabled with the `ROLauncher.exe.config` file under the `CheckForROUpdates` setting)
 
+# Disclaimer
+
+I have not been banned while developing this tool or using it, however please note that in the My.com Games [Terms of Service](https://legal.my.com/us/games/eula/) it states the following:
+
+```
+3.4 You are not permitted to:
+
+  - modify, adapt, decompile, disassemble, change the Game Services or any of its components;
+...
+  - attempt to circumvent any security measures adopted in the Game Services, including blocking access by IP-address;
+```
+
 ### Other findings
 
 While reversing the auth protocol, I noticed that both Revelation Online (`tianyu.exe`) and My.com Game Center (`MyComGames.exe`) connect to at least a few hosts that seem to be irrelevant to the operation of the game.
