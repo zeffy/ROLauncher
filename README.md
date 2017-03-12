@@ -10,7 +10,7 @@ Launcher for Revelation Online NA/EU. This lets you start the game without needi
 
 ### Other findings
 
-I noticed that both Revelation Online and the My.com Game Center connect to at least a few hosts that seem to be irrelevant to the operation of the game.
+While reversing the auth protocol, I noticed that both Revelation Online and My.com Game Center connect to at least a few hosts that seem to be irrelevant to the operation of the game.
 
 * `stat.gc.my.com` Lots of requests from My.com Game Center. I'm guessing this is probably for software analytics.
 * `ac.ro.gmru.net` RO client sends many requests and receives responses to them, all encrypted (on top of HTTPS). I haven't had time to poke around and figure out how to decrypt the contents yet, so I'm not sure what it is.
