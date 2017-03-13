@@ -35,9 +35,6 @@ namespace ROLauncher
                 NativeMethods.GetPrivateProfileString(lpAppName, lpKeyName, lpDefault, sb, (uint)sb.Capacity, lpFileName);
                 return sb.ToString();
             }
-
-            [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
-            internal static extern IntPtr LoadImage([Optional] IntPtr hinst, string lpszName, uint uType, int cxDesired, int cyDesired, uint fuLoad);
         }
 
         private string m_MyComGamesExePath;
@@ -86,8 +83,8 @@ namespace ROLauncher
 
             m_ROProjectId = index > -1 ? m_ROGameId.Substring(m_ROGameId.IndexOf('.') + 1) : "2000026";
             m_ROClientExePath = Path.Combine(m_ROInstallDirectory, (string)misc.Attribute("EXEFILENAME") ?? "game\\tianyu.exe");
-            m_MyComCodeParam = (string)misc.Attribute("MYCOMCODEPARAM") ?? "-my_com_code";
-            m_MyComUserIdParam = (string)misc.Attribute("MYCOMUSERIDPARAM") ?? "-mycom_user_id";
+            m_MyComCodeParam = (string)misc.Attribute("MYCOMCODEPARAM") ?? "-my_com_code ";
+            m_MyComUserIdParam = (string)misc.Attribute("MYCOMUSERIDPARAM") ?? "-mycom_user_id ";
             m_Rnd = new Random();
 
             m__c_Min = 359435;
