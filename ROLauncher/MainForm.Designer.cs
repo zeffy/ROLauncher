@@ -90,7 +90,7 @@
             this.forgotPasswordLinkLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.forgotPasswordLinkLabel.Name = "forgotPasswordLinkLabel";
             this.forgotPasswordLinkLabel.Size = new System.Drawing.Size(57, 13);
-            this.forgotPasswordLinkLabel.TabIndex = 1;
+            this.forgotPasswordLinkLabel.TabIndex = 6;
             this.forgotPasswordLinkLabel.TabStop = true;
             this.forgotPasswordLinkLabel.Text = "Forgot it?";
             this.forgotPasswordLinkLabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
